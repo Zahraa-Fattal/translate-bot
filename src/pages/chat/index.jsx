@@ -96,30 +96,30 @@ function Chat() {
         <div
           className={`${
             darkMode ? "bg-[#13141A]" : "bg-white"
-          } p-4 shadow-sm border-b ${
+          } p-3 sm:p-4 shadow-sm border-b ${
             darkMode ? "border-[#ECE9E980]" : "border-gray-200"
-          } flex justify-between items-center`}
+          } flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3`}
         >
           <h2
-            className={`text-xl ${
+            className={`text-lg sm:text-xl ${
               darkMode ? "text-white" : "text-black"
             } font-semibold`}
           >
             Chat
           </h2>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-col xs:flex-row items-start xs:items-center gap-2 w-full sm:w-auto">
             <p
-              className={`text-[20px] ${
+              className={`text-base sm:text-[20px] ${
                 darkMode ? "text-white" : "text-black"
-              }`}
+              } whitespace-nowrap`}
             >
-              select language :
+              Select language:
             </p>
-            <div className="flex gap-2 mb-2 ">
+            <div className="w-full xs:w-auto">
               <select
                 value={targetLanguage}
                 onChange={(e) => setTargetLanguage(e.target.value)}
-                className={`px-4 py-2 rounded-md ${
+                className={`w-full px-3 py-1 sm:px-4 sm:py-2 rounded-md ${
                   darkMode
                     ? "bg-[#2D3748] text-white"
                     : "bg-gray-100 text-black"

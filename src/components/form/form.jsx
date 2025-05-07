@@ -19,7 +19,7 @@ const AuthForm = ({
   login,
 }) => {
   return (
-    <div className="relative w-full max-w-lg h-[625px] rounded-[26px] p-[2px]">
+    <div className="relative w-full max-w-lg h-[618px] rounded-[26px] p-[2px]">
       <div
         className="absolute inset-0 rounded-[26px] p-[2px] bg-gradient-to-br from-[#0379FF] via-[#B74BDD] to-[#FF805F] pointer-events-none"
         style={{

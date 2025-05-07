@@ -1,12 +1,6 @@
-# React + Vite
+# chat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+my website start with welcome page then when you click get started it goes to login page by default ,there is an email you should put is "user@example.com" and password is "password123" ,then a toast will show that you logged in successfully ,you can switch to sign up page put it doesn't have api ,and the whole fields are validated by yup and I used formik for forms ,when you log in the navigation will take you to chat page which has a chat bot the translate your text into any language you detect from the options in the navbar there is something else work in this page which is them ,on the left there is a moon or sun icon based on the mood you want to switch ,and arrow icon to close and open the side bar
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I used routes ,tailwind ,react-toastify and many others to adjust a responsive and well functionality website
+you only need to run npm i ,then use the email and password I told before and everything is clean
